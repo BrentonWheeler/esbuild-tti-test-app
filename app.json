@@ -1,0 +1,11 @@
+{
+  "expo": {
+    "name": "esbuild-tti-test-app",
+    "slug": "esbuild-tti-test-app",
+    "version": "1.0.0",
+    "assetBundlePatterns": [
+      "**/*"
+    ]
+  },
+  "name": "esbuild-tti-test-app"
+}
