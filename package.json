@@ -3,8 +3,10 @@
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
-    "bundle:install": "yarn exec ./scripts/bundle:install.sh",
-    "bundle:install+esbuild": "yarn exec ./scripts/bundle:install.sh esbuild",
+    "bundle:install": "yarn exec ./scripts/bundle:install:release.sh",
+    "bundle:install+esbuild": "yarn exec ./scripts/bundle:install:release.sh esbuild",
+    "bundle:install:debug": "yarn exec ./scripts/bundle:install:debug.sh",
+    "bundle:install:debug+esbuild": "yarn exec ./scripts/bundle:install:debug.sh esbuild",
     "bundle:analyse": "npx react-native-bundle-visualizer",
     "bundle:analyse+esbuild": "serializer=esbuild npx react-native-bundle-visualizer"
   },

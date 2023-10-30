@@ -6,3 +6,5 @@ yarn-error.log
 .yalc
 yalc.lock
 .expo/
+.idea/
+.DS_STORE
